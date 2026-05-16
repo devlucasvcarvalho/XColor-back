@@ -1,0 +1,5 @@
+@UserApi_HostAddress = http://localhost:5126
+
+### Testar a listagem de usuários (ajuste o caminho 'api/usuario' se sua rota for diferente)
+GET {{UserApi_HostAddress}}/api/usuario
+Accept: application/json
